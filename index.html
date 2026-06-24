@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Jandavsol - Ropa Deportiva</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #111;
+      color: #fff;
+    }
+    header {
+      background: #0f172a;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      color: #22c55e;
+    }
+    nav {
+      text-align: center;
+      padding: 10px;
+      background: #1e293b;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+    }
+    .hero {
+      padding: 50px;
+      text-align: center;
+      background: url('https://images.unsplash.com/photo-1526401485004-46910ecc8e51') no-repeat center/cover;
+    }
+    .hero h2 {
+      font-size: 40px;
+    }
+    .productos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+    .producto {
+      background: #1e293b;
+      padding: 15px;
+      border-radius: 10px;
+      text-align: center;
+    }
+    .producto img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #0f172a;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Jandavsol</h1>
+  <p>Ropa deportiva de calidad</p>
+</header>
+
+<nav>
+  <a href="#">Inicio</a>
+  <a href="#productos">Productos</a>
+  <a href="#contacto">Contacto</a>
+</nav>
+
+<section class="hero">
+  <h2>Entrena con estilo 💪</h2>
+  <p>Las mejores camisetas deportivas</p>
+</section>
+
+<section id="productos">
+  <h2 style="text-align:center;">Catálogo</h2>
+
+  <div class="productos">
+
+    <div class="producto">
+      <img src="https://images.unsplash.com/photo-1600180758890-6b94519a8ba7" alt="camiseta">
+      <h3>Camiseta Deportiva Negra</h3>
+      <p>$25</p>
+    </div>
+
+    <div class="producto">
+      <img src="https://images.unsplash.com/photo-1520975922284-5e3d1c1b2dbe" alt="camiseta">
+      <h3>Camiseta Fitness Azul</h3>
+      <p>$28</p>
+    </div>
+
+    <div class="producto">
+      <img src="https://images.unsplash.com/photo-1593032465171-8b7c5b1dbe45" alt="camiseta">
+      <h3>Camiseta Running</h3>
+      <p>$30</p>
+    </div>
+
+  </div>
+</section>
+
+<section id="contacto" style="text-align:center; padding:30px;">
+  <h2>Contacto</h2>
+  <p>WhatsApp: 0998754008</p>
+  <p>Email: jandavsol@gmail.com</p>
+</section>
+
+<footer>
+  <p>© 2026 Jandavsol</p>
+</footer>
+
+</body>
+</html>
